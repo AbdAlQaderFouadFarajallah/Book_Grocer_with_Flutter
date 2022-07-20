@@ -1,4 +1,5 @@
 import 'package:book_grocer_with_flutter/screens/out_boarding_screen.dart';
+import 'package:book_grocer_with_flutter/screens/sing_in_screen.dart';
 import 'package:flutter/material.dart';
 
 
@@ -14,9 +15,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: '/out_boarding_screen',
+      initialRoute: '/sing_in_screen',
       routes: {
         '/out_boarding_screen': (context) => const OutBoardingScreen(),
+        '/sing_in_screen': (context) => const SingInScreen(),
       },
     );
   }
